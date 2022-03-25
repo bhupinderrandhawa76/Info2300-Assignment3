@@ -1,0 +1,445 @@
+<!doctype html>
+<html>
+<head><title></title>
+<link rel="icon" href="img/03.jpg" />
+<style>
+*
+{
+border:0px solid black;
+
+margin:4px;
+padding:4px;
+
+color:black;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+h2
+{
+
+color:white;
+}
+
+h4
+{
+
+color:white;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+h5{font-size:20px;}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div#slider {
+float:left;
+height:500px;
+width:50%;
+ overflow: hidden; }
+div#slider figure img 
+{ 
+height:500px;
+width: 19.75%; 
+float: left; 
+}
+div#slider figure { 
+  position: relative;
+  width: 499%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 10s slidy infinite; 
+}
+
+@keyframes slidy {
+	
+0% { left: 0%; }
+15% { left: 0%; }
+30% { left: -100%; }
+45% { left: -100%; }
+60% { left: -200%; }
+70% { left: -200%; }
+80% { left: -300%; }
+90% { left: -300%; }
+100% { left: -400%; }
+110% { left: -400%; }
+120% { left:-0%; }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+		
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h3 
+{
+	border:none;
+    width:100%;
+}
+
+h1
+{
+	border:none;
+}
+
+input[type=submit],
+input[type=reset],
+input[type=text]{border:2px solid black;}
+
+input[type=text]:focus,
+input[type=reset]:focus,
+input[type=submit]:focus{border:none;
+background:skyblue;
+}
+
+
+input[type=text]:hover,
+input[type=reset]:hover,
+input[type=submit]:hover{
+	font-size:15px;
+	background:#F7D9A6  ;
+}
+
+
+nav ul{}
+
+nav ul li{float:left;
+list-style:none;
+
+}
+
+nav ul li a{
+	display:block;
+	border:1px solid black;
+	text-decoration:none;
+	background:#DACECE;
+width:120%;
+	margin:-25px 293px -100px -30px;
+}
+
+.form
+{background:white;
+	border:2px solid black;
+
+}
+
+figcaption{color:white;}
+
+body
+{
+background:#E1FFFD;
+text-align:center;
+border:none;
+}
+
+header
+{border:2px solid black;
+	background:#49D0D7;
+font-size:35px;
+color:black;
+padding:20px;
+height:80px;
+}
+
+header nav
+{
+background:white;
+border:2px;	
+}
+
+section
+{
+background:url(img/12.jfif) no-repeat center center fixed;
+background-size:cover;
+height:550px;
+}
+
+section1
+{
+background:url(img/12.jfif) no-repeat center center fixed;
+background-size:cover;
+height:300px;
+}
+
+fieldset
+{
+	border:2px black solid;
+	
+}
+
+article{border:0px solid black;}
+
+.mid
+{
+
+text-align:justify;
+background:white;
+float:right;
+border:1px solid black;
+height:520px;
+width:20%;	
+}
+
+.mid1
+{
+background:white;
+float:right;
+border:none;	
+}
+
+section img
+{
+border:2px solid black;
+background:white;
+}
+
+aside img
+{
+   border:2px solid black;
+background:white; 
+}
+
+article
+{
+background:white;
+	float:bottom;
+	border:none;
+}
+
+aside
+{
+border:none;
+background:url(img/14.jfif) no-repeat center center fixed;
+background-size:cover;
+}
+
+footer
+{
+	
+	color:blue;
+border:1px solid black;
+	background:url(img/13.jfif) no-repeat center center fixed;
+background-size:cover;
+}
+
+footer h6{
+	font-size:30px;
+	color:white;
+	}
+
+
+.responsive 
+{
+width:100%;
+height:300px;
+
+}
+.responsive  figure
+{
+float:left;
+width:21%;
+height:300px;
+border:1px solid white;
+margin:25px;
+padding:0px 0px 10px 45px ;
+}
+
+.clearfix 
+{
+width:100%;
+height:170px;
+
+}
+.clearfix p 
+{
+color:white;
+}
+aside 1
+{
+height:600px;
+}
+
+h6{font-size:20px;}
+</style>
+</head>
+<body>
+<header>
+LAPTOP BRANDS
+<br></br>
+
+</header>
+<h3>
+<nav>
+<ul>
+<li><a href="web assign.html">Home</a></li>
+<li><a href="1.html">About us</a></li>
+<li><a href="2.html">Contact us</a></li>
+<li><a href="3.html">Updates</a></li>
+</ul>
+</nav>
+</h3>
+<section>
+<div id="slider">
+			<figure>
+				<img src="img/10.jpg" >
+				<img src="img/20.jpg" >
+				<img src="img/30.jpg" >
+				<img src="img/40.jpg" >
+				<img src="img/50.jpg" >
+				</figure>
+			</div>
+
+<div class="mid">
+
+<h5><center>BRANDS</center></h5>
+<li><a href="https://www.dell.com/en-in/shop/laptops-2-in-1-pcs/new-inspiron-15-7000/spd/inspiron-15-7572-laptop?mkwid=s2oP8nocs&pcrid=314991322256&pkw=dell%20official&pmt=b&pdv=c&VEN1=s2oP8nocs~314991322256~901za68006~c&VEN1=s2oP8nocs~314991322256~901za68006~c&ST=dell%20official&ST=dell%2Bofficial&VEN2=b~dell%20official&VEN2=b~dell%2Bofficial&dgc=st&dgc=st&dgseg=dhs&dgseg=hsb&acd=10599860602341413&acd=10599860602341413&gclid=Cj0KCQiA6JjgBRDbARIsANfu58HLmShlC7W0dzGVYLa5hwngb9B7x_HP0ePeYKEcknV1UjjL-eZ3EQUaAl1REALw_wcB&cid=86060&lid=23414&VEN3=412604684934428587">Dell</a></li>
+<li><a href="https://www.asus.com/in/">Asus</a></li>
+<li><a href="https://www.apple.com/in/mac/">Apple</a></li>
+<li><a href="">Razer</a></li>
+<li><a href="https://www.shopacer.co.in/?gclid=Cj0KCQiA6JjgBRDbARIsANfu58H3Zkq_OtZUcuTRMjsjGo5UCDbIkZhNYrkBUNVqqeMiVGOm6HrGewcaAo7oEALw_wcB">Acer</a></li>
+<li><a href="">Lenovo</a></li>
+<li><a href="https://www.hpshopping.in/">Hewlett Packard</a></li>
+<li><a href="https://www.currys.co.uk/gbuk/microsoft-computing/laptops/laptops/xx_3226_30328_195_xx/xx-criteria.html">Microsoft</a></li>
+<li><a href="https://in.msi.com/">MSI</a></li>
+<li><a href="https://www.samsung.com/us/computing/windows-laptops/all-windows-laptops/s/_/n-10+11+hv22t/">Samsung</a></li><br></br>
+
+<li><h5>click on the brand to see laptops and there prices</h5></li>
+</section>
+<section1>
+</div>
+<article >
+<h6>DELL</h6>
+<br>Dell is an American company that sells laptops, computers, data storage, servers and computer peripherals.</br>
+ Dell laptops are configured with all the latest technology to meet the meeting demands of every business 
+ and <br>to handle any task. Their famous laptops brands are Inspiron-Everyday Essentials, XPS-Performance, </br>
+ Vostro and Alienware laptops.
+<br>Inspiron-Everyday Essentials are built with utmost care with the current technologies to be able to meet</br>
+ any task. It is highly customizable in such a way that it can be built the way the user requires it. It 
+ <br>comes with 3000, 5000, 7000, Ubuntu 3000 and 7000 gaming series.</br>
+</article >
+</section1>
+<aside>
+
+<div class="mid1">
+<h1>Industry Links</h1>
+<p>Co-op is an integral part of all the courses being run at CIIS. Co-op in general term refers to the cooperation between the College and the Industry. It is a proven, realistic and practical method of career education adopted from the developed world that integrates academics with relevant work experience, blending career ambitions with studies through hands on experience. 
+
+This system of education allows students to undertake productive work in the industry or business for a period of 12 to 14 weeks after every 2 semesters. This unique mix of learning while working enables students to gain valuable experience, develop maturity and professionalism, apply classroom training to practical situations, and encourages academic achievement by expanding knowledge and skills of the individual.
+
+</p>
+<h1>Curriculum Quality</h1>
+<p>CIIS students benefit from the latest North American teaching methods and curriculum; and credentials with global recognition. Senior Canadian & British faculty comes to CIIS on rotational basis for a time period of at least one semester for full time teaching. The Indian faculty are handpicked and trained in Canada & UK prior to commencement of classes at CIIS. 
+
+The programs are student centered in delivery with an emphasis on the development of practical skills, problem solving and state of the art knowledge in technology and business. All programs are designed & delivered with the industry requirements in mind. CIIS has worked very hard to establish close working relationships with leaders in the industry. These leaders form the basis of our Program Advisory Committees. The members recommend courses of action and planning for our programs. Thus, the curriculum remains current and tuned to the requirements of the industry.
+</p>
+
+</div>
+</aside>
+<aside 1>
+<h2>Responsive Image Gallery</h2>
+<h4>Resize the browser window to see the effect.</h4>
+
+<div class="responsive">
+<figure>
+    <a target="_blank" href="img/02.jpg">
+    <img src="img/02.jpg" alt="Cinque Terre" width="250" height="200"></a>
+<figcaption>Click on image</figcaption>
+	</figure>
+
+
+<figure>
+    <a target="_blank" href="img/03.jpg">
+    <img src="img/03.jpg" alt="Cinque Terre" width="250" height="200"></a>
+<figcaption>Click on image</figcaption>
+	</figure>
+ 
+  
+<figure>
+    <a target="_blank" href="img/04.jpg">
+    <img src="img/04.jpg" alt="Cinque Terre" width="250" height="200"></a>
+<figcaption>Click on image</figcaption>
+	</figure>
+ 
+  
+ 
+<figure>
+    <a target="_blank" href="img/05.jpg">
+    <img src="img/05.jpg" alt="Cinque Terre" width="250" height="200"></a>
+<figcaption>Click on image</figcaption>
+	</figure>
+  </div>
+
+
+<div class="clearfix">
+  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than wide, 
+  it will show four images side by side, for screens smaller than, it will show two images side by side. 
+  For screens smaller than , the images will stack vertically.
+  You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+</div>
+</aside 1>
+
+<div class="form">
+<fieldset>
+<legend><h3>LOGIN HERE</h3></legend>
+<form>
+<input type="text" placeholder="Name" required="name"><br>
+<input type="text" placeholder="Email address"></br>
+<input type="text" placeholder="city">
+
+</select></br><br></br>
+
+
+<center><input type="submit" value="Login">
+<input type="reset" value="Sign In"></center>
+</center>
+</form>
+</fieldset>
+</div>
+
+
+
+<footer>
+<br><h6>Copyright@2018</h6></br>
+</footer>
+</body>
+</html>
