@@ -8,3 +8,6 @@ So that, user can get good information about laptops from website.
 The main purpose of webpage to provide information about different brand laptops.
 This webpage is designed by html language.
 
+Made By Bhupinderjeet singh
+Conestoga college student
+
